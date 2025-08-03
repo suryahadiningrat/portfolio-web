@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "description": "Modern e-commerce platform with admin dashboard and payment integration",
+    "longDescription": "A comprehensive e-commerce solution built with React and Node.js, featuring real-time inventory management, secure payment processing through Stripe, and an intuitive admin dashboard. The platform includes user authentication, order tracking, and responsive design for optimal mobile experience.",
+    "techStack": ["React", "Node.js", "MongoDB", "Stripe", "TailwindCSS"],
+    "features": [
+      "User authentication & authorization",
+      "Real-time inventory management",
+      "Secure payment processing",
+      "Admin dashboard",
+      "Order tracking system",
+      "Responsive design"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/ecommerce-thumb.jpg",
+      "gallery": [
+        "/images/projects/ecommerce-1.jpg",
+        "/images/projects/ecommerce-2.jpg",
+        "/images/projects/ecommerce-3.jpg"
+      ]
+    },
+    "links": {
+      "demo": "https://ecommerce-demo.com",
+      "github": "https://github.com/johndoe/ecommerce-platform"
+    },
+    "status": "Completed",
+    "date": "2024-01-15",
+    "client": "TechStore Inc.",
+    "duration": "3 months",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Task Management App",
+    "description": "Collaborative task management application with real-time updates",
+    "longDescription": "A powerful task management application designed for teams, featuring real-time collaboration, drag-and-drop functionality, and comprehensive project tracking. Built with modern technologies to ensure smooth performance and excellent user experience.",
+    "techStack": ["React", "TypeScript", "Firebase", "Material-UI"],
+    "features": [
+      "Real-time collaboration",
+      "Drag & drop interface",
+      "Team management",
+      "Progress tracking",
+      "File attachments",
+      "Notifications system"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/taskapp-thumb.jpg",
+      "gallery": [
+        "/images/projects/taskapp-1.jpg",
+        "/images/projects/taskapp-2.jpg"
+      ]
+    },
+    "links": {
+      "demo": "https://taskapp-demo.com",
+      "github": "https://github.com/johndoe/task-management"
+    },
+    "status": "Completed",
+    "date": "2023-11-20",
+    "client": "Startup XYZ",
+    "duration": "2 months",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "description": "Beautiful weather dashboard with location-based forecasts",
+    "longDescription": "An elegant weather dashboard that provides detailed weather information and forecasts. Features include location-based weather data, interactive maps, and beautiful visualizations of weather patterns.",
+    "techStack": ["Vue.js", "Chart.js", "OpenWeather API", "CSS3"],
+    "features": [
+      "Location-based weather",
+      "7-day forecast",
+      "Interactive charts",
+      "Weather maps",
+      "Responsive design",
+      "Dark/Light mode"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/weather-thumb.jpg",
+      "gallery": [
+        "/images/projects/weather-1.jpg",
+        "/images/projects/weather-2.jpg"
+      ]
+    },
+    "links": {
+      "demo": "https://weather-dashboard-demo.com",
+      "github": "https://github.com/johndoe/weather-dashboard"
+    },
+    "status": "Completed",
+    "date": "2023-09-10",
+    "client": "Personal Project",
+    "duration": "1 month",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Restaurant Website",
+    "description": "Modern restaurant website with online reservation system",
+    "longDescription": "A sophisticated restaurant website featuring online reservations, menu showcase, and customer reviews. Built with performance and SEO in mind to attract more customers and streamline operations.",
+    "techStack": ["Next.js", "Prisma", "PostgreSQL", "TailwindCSS"],
+    "features": [
+      "Online reservations",
+      "Digital menu",
+      "Customer reviews",
+      "Photo gallery",
+      "Contact forms",
+      "SEO optimized"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/restaurant-thumb.jpg",
+      "gallery": [
+        "/images/projects/restaurant-1.jpg",
+        "/images/projects/restaurant-2.jpg"
+      ]
+    },
+    "links": {
+      "demo": "https://restaurant-demo.com",
+      "github": "https://github.com/johndoe/restaurant-website"
+    },
+    "status": "Completed",
+    "date": "2023-07-05",
+    "client": "Bella Vista Restaurant",
+    "duration": "6 weeks",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "Fitness Tracker",
+    "description": "Personal fitness tracking app with workout plans",
+    "longDescription": "A comprehensive fitness tracking application that helps users monitor their workouts, track progress, and follow personalized fitness plans. Features include exercise database, progress charts, and social sharing.",
+    "techStack": ["React Native", "Redux", "Firebase", "Chart.js"],
+    "features": [
+      "Workout tracking",
+      "Progress analytics",
+      "Custom workout plans",
+      "Exercise database",
+      "Social sharing",
+      "Goal setting"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/fitness-thumb.jpg",
+      "gallery": [
+        "/images/projects/fitness-1.jpg",
+        "/images/projects/fitness-2.jpg"
+      ]
+    },
+    "links": {
+      "demo": "https://fitness-tracker-demo.com",
+      "github": "https://github.com/johndoe/fitness-tracker"
+    },
+    "status": "In Progress",
+    "date": "2024-02-01",
+    "client": "FitLife Corp",
+    "duration": "4 months",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Portfolio CMS",
+    "description": "Content management system for creative portfolios",
+    "longDescription": "A flexible CMS specifically designed for creative professionals to showcase their work. Features drag-and-drop portfolio builder, client galleries, and customizable themes.",
+    "techStack": ["React", "Node.js", "Express", "MongoDB", "Cloudinary"],
+    "features": [
+      "Drag & drop builder",
+      "Client galleries",
+      "Custom themes",
+      "Image optimization",
+      "SEO tools",
+      "Analytics dashboard"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/portfolio-cms-thumb.jpg",
+      "gallery": [
+        "/images/projects/portfolio-cms-1.jpg",
+        "/images/projects/portfolio-cms-2.jpg"
+      ]
+    },
+    "links": {
+      "demo": "https://portfolio-cms-demo.com",
+      "github": "https://github.com/johndoe/portfolio-cms"
+    },
+    "status": "Completed",
+    "date": "2023-12-15",
+    "client": "Creative Agency",
+    "duration": "5 months",
+    "featured": true
+  }
+]
