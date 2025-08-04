@@ -113,7 +113,7 @@ const About = () => {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="/images/about-illustration.svg"
+                src="/images/about-illustration.png"
                 alt="About illustration"
                 className="w-full h-auto"
                 onError={(e) => {

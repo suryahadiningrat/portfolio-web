@@ -64,9 +64,24 @@ const Header = () => {
           <div className="flex-shrink-0">
             <button
               onClick={() => handleNavClick('hero')}
-              className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent hover:scale-105 transition-transform"
+              className="flex items-center hover:scale-105 transition-transform"
             >
-              JD
+              <img
+                src="/logo192.png"
+                alt="Rifky Suryakusuma Rachmat Logo"
+                className={`object-contain transition-all duration-300 ${
+                  isScrolled ? 'h-8 w-8' : 'h-10 w-10'
+                }`}
+                onError={(e) => {
+                  // Fallback ke logo512.png jika logo192.png tidak ada
+                  e.target.src = '/logo512.png';
+                  e.target.onError = () => {
+                    // Fallback ke teks jika kedua logo tidak ada
+                    e.target.style.display = 'none';
+                    e.target.parentNode.innerHTML = `<span class="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent ${isScrolled ? 'text-xl' : 'text-2xl'}">RS</span>`;
+                  };
+                }}
+              />
             </button>
           </div>
 

@@ -81,13 +81,19 @@ const Skills = () => {
             <Card key={skill.name} className="group">
               <div className="flex items-center mb-4">
                 <div 
-                  className="w-12 h-12 rounded-lg flex items-center justify-center mr-4"
-                  style={{ backgroundColor: `${skill.color}20` }}
+                  className="w-12 h-12 rounded-lg flex items-center justify-center mr-4 bg-gray-50 overflow-hidden"
                 >
-                  <div
-                    className="w-8 h-8 rounded-md"
-                    style={{ backgroundColor: skill.color }}
-                  ></div>
+                  <img
+                    src={skill.icon}
+                    alt={`${skill.name} icon`}
+                    className="w-8 h-8 object-contain"
+                    onError={(e) => {
+                      // Fallback ke color background jika icon tidak ada
+                      e.target.style.display = 'none';
+                      e.target.parentNode.style.backgroundColor = `${skill.color}20`;
+                      e.target.parentNode.innerHTML = `<div class="w-8 h-8 rounded-md" style="background-color: ${skill.color}"></div>`;
+                    }}
+                  />
                 </div>
                 <div className="flex-1">
                   <h3 className="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">
