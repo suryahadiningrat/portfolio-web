@@ -26,7 +26,7 @@ const About = () => {
     {
       icon: Users,
       title: 'Konsultasi',
-      description: 'Memberikan panduan teknis dan saran strategis untuk proyek transformasi digital Anda.'
+      description: 'Memberikan panduan teknis dan saran strategis untuk project transformasi digital Anda.'
     }
   ];
 
@@ -145,7 +145,7 @@ const About = () => {
         {/* Services */}
         <div>
           <h3 className="text-2xl font-bold text-gray-900 text-center mb-12">
-            What I Do
+            Layanan yang Saya Tawarkan
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

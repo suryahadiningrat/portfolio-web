@@ -63,12 +63,12 @@ const Projects = () => {
             My Portfolio
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Featured
-            <span className="block text-primary-600">Projects & Work</span>
+            Karya Yang
+            <span className="block text-primary-600">Saya Kerjakan</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A collection of projects that showcase my skills and passion for creating 
-            exceptional digital experiences.
+            Koleksi proyek yang menunjukkan keterampilan dan hasrat saya untuk menciptakan
+            pengalaman digital yang luar biasa.
           </p>
         </div>
 
@@ -76,7 +76,7 @@ const Projects = () => {
         <div className="flex flex-wrap justify-center gap-2 mb-12">
           <div className="flex items-center gap-2 mb-4">
             <Filter size={20} className="text-gray-500" />
-            <span className="text-sm text-gray-500">Filter berdasarkan teknologi:</span>
+            <span className="text-sm text-gray-500">Filter berdasarkan kategori:</span>
           </div>
           <div className="flex flex-wrap justify-center gap-2">
             {techFilters.map((tech) => (

@@ -46,14 +46,14 @@ const Skills = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-2 bg-primary-100 text-primary-600 rounded-full text-sm font-medium mb-4">
-            Keahlian & Expertise
+            Skill & Expertise
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             Teknologi yang
             <span className="block text-primary-600">Saya Kuasai</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Saya terus belajar dan mengembangkan keahlian untuk mengikuti 
+            Saya terus belajar dan mengembangkan skill untuk mengikuti 
             teknologi terbaru dan praktik terbaik dalam pengembangan web.
           </p>
         </div>
@@ -154,7 +154,7 @@ const Skills = () => {
                     {category.skills.length}
                   </div>
                   <div className="text-sm text-gray-600">
-                    {category.name} Keahlian
+                    {category.name} Skills
                   </div>
                 </div>
               ))}

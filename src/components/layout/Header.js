@@ -12,7 +12,7 @@ const Header = () => {
     { name: 'Beranda', href: 'hero' },
     { name: 'Tentang', href: 'about' },
     { name: 'Keahlian', href: 'skills' },
-    { name: 'Proyek', href: 'projects' },
+    { name: 'project', href: 'projects' },
     { name: 'Kontak', href: 'contact' },
   ], []);
 

@@ -81,7 +81,7 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
             <span className="block text-primary-600">Sama</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Punya project dalam pikiran? Saya ingin mendengarnya. 
+            Punya rencana project ? Saya ingin mendengarnya. 
             Mari diskusikan bagaimana kita bisa mewujudkan ide Anda melalui WhatsApp.
           </p>
         </div>
@@ -125,7 +125,7 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
                     <div className="flex items-center p-3 bg-gray-50 rounded-lg">
                       <MapPin className="text-gray-600 mr-3" size={20} />
                       <div>
-                        <div className="font-medium text-gray-900">Location</div>
+                        <div className="font-medium text-gray-900">Lokasi</div>
                         <div className="text-sm text-gray-600">{profileData.location}</div>
                       </div>
                     </div>
@@ -174,10 +174,10 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
           <div className="lg:col-span-2">
             <Card>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Send me a message
+                Chat dengan saya
               </h3>
               <p className="text-gray-600 mb-8">
-                Fill out the form below and I'll open WhatsApp with your message ready to send.
+                Isi formulir di bawah ini dan saya akan membuka WhatsApp dengan pesan Anda siap untuk dikirim.
               </p>
               
               <form onSubmit={handleWhatsAppSubmit} className="space-y-6">
@@ -282,14 +282,14 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
                     className="inline-flex items-center px-6 py-3 bg-white text-primary-600 rounded-lg font-medium hover:bg-gray-100 transition-colors"
                   >
                     <MessageCircle className="mr-2" size={20} />
-                    WhatsApp Me
+                    WhatsApp Saya
                   </a>
                   <a
                     href={`tel:${profileData.phone}`}
                     className="inline-flex items-center px-6 py-3 border-2 border-white text-white rounded-lg font-medium hover:bg-white hover:text-primary-600 transition-colors"
                   >
                     <Phone className="mr-2" size={20} />
-                    Call Me
+                    Telpon Saya
                   </a>
                 </>
               )}

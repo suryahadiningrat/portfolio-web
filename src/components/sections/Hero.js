@@ -109,7 +109,7 @@ const Hero = () => {
                 <div className="text-2xl font-bold text-yellow-400">
                   {profileData.projectsCompleted}
                 </div>
-                <div className="text-sm text-gray-300">Proyek</div>
+                <div className="text-sm text-gray-300">project</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-yellow-400">
@@ -205,7 +205,7 @@ const Hero = () => {
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
           <div className="flex flex-col items-center">
-            <span className="text-sm mb-2">Gulir ke Bawah</span>
+            <span className="text-sm mb-2">Scroll</span>
             <div className="w-0.5 h-8 bg-white rounded-full"></div>
           </div>
         </div>

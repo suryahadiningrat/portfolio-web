@@ -19,11 +19,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div>
-            <div className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
+            <div className="text-2xl font-bold bg-gradient-primary bg-clip-text text-white mb-4">
               Suryahadiningrat
             </div>
             <p className="text-gray-300 mb-4">
-              Full Stack Developer passionate about creating exceptional digital experiences.
+              Full Stack Developer bersemangat untuk menciptakan pengalaman digital yang luar biasa
             </p>
             {socialData && (
               <div className="flex space-x-4">
@@ -48,9 +48,9 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">Menu</h3>
             <ul className="space-y-2">
-              {['Home', 'About', 'Skills', 'Projects', 'Contact'].map((link) => (
+              {['Beranda', 'Tentang', 'Keahlian', 'Proyek', 'Kontak'].map((link) => (
                 <li key={link}>
                   <button
                     onClick={() => {
@@ -70,7 +70,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Get In Touch</h3>
+            <h3 className="text-lg font-semibold mb-4">Kontak Saya</h3>
             {socialData && (
               <div className="space-y-2 text-gray-300">
                 <p>{socialData.contactInfo.address}</p>
