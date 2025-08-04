@@ -76,10 +76,10 @@ const Hero = () => {
             {/* Greeting */}
             <div className="mb-6">
               <span className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm font-medium mb-4">
-                👋 Hello there!
+                👋 Halo semua!
               </span>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
-                I'm{' '}
+                Saya{' '}
                 <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
                   {profileData.name}
                 </span>
@@ -103,19 +103,19 @@ const Hero = () => {
                 <div className="text-2xl font-bold text-yellow-400">
                   {profileData.experience}
                 </div>
-                <div className="text-sm text-gray-300">Experience</div>
+                <div className="text-sm text-gray-300">Pengalaman</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-yellow-400">
                   {profileData.projectsCompleted}
                 </div>
-                <div className="text-sm text-gray-300">Projects</div>
+                <div className="text-sm text-gray-300">Proyek</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-yellow-400">
                   {profileData.happyClients}
                 </div>
-                <div className="text-sm text-gray-300">Happy Clients</div>
+                <div className="text-sm text-gray-300">Klien Senang</div>
               </div>
             </div>
 
@@ -126,14 +126,14 @@ const Hero = () => {
                 className="bg-green-500 text-white hover:bg-green-600"
               >
                 <MessageCircle className="mr-2" size={20} />
-                Chat on WhatsApp
+                Chat WhatsApp
               </Button>
               <Button 
                 variant="outline" 
                 onClick={handleProjectsClick}
                 className="border-white text-white hover:bg-white hover:text-primary-600"
               >
-                View My Work
+                Lihat Karya Saya
               </Button>
             </div>
 
@@ -205,7 +205,7 @@ const Hero = () => {
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
           <div className="flex flex-col items-center">
-            <span className="text-sm mb-2">Scroll Down</span>
+            <span className="text-sm mb-2">Gulir ke Bawah</span>
             <div className="w-0.5 h-8 bg-white rounded-full"></div>
           </div>
         </div>

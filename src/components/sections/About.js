@@ -10,23 +10,23 @@ const About = () => {
   const services = [
     {
       icon: Code,
-      title: 'Frontend Development',
-      description: 'Creating responsive and interactive user interfaces using modern frameworks like React, Vue.js, and Next.js.'
+      title: 'Pengembangan Frontend',
+      description: 'Membuat antarmuka pengguna yang responsif dan interaktif menggunakan framework modern seperti React, Vue.js, dan Next.js.'
     },
     {
       icon: Zap,
-      title: 'Backend Development',
-      description: 'Building robust server-side applications with Node.js, Express, and database management.'
+      title: 'Pengembangan Backend',
+      description: 'Membangun aplikasi server-side yang robust dengan Node.js, Express, dan manajemen database.'
     },
     {
       icon: Palette,
-      title: 'UI/UX Design',
-      description: 'Designing intuitive and beautiful user experiences with tools like Figma and Adobe Creative Suite.'
+      title: 'Desain UI/UX',
+      description: 'Mendesain pengalaman pengguna yang intuitif dan indah dengan tools seperti Figma dan Adobe Creative Suite.'
     },
     {
       icon: Users,
-      title: 'Consulting',
-      description: 'Providing technical guidance and strategic advice for your digital transformation projects.'
+      title: 'Konsultasi',
+      description: 'Memberikan panduan teknis dan saran strategis untuk proyek transformasi digital Anda.'
     }
   ];
 
@@ -50,15 +50,15 @@ const About = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-2 bg-primary-100 text-primary-600 rounded-full text-sm font-medium mb-4">
-            About Me
+            Tentang Saya
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Passionate About Creating
-            <span className="block text-primary-600">Digital Experiences</span>
+            Passionate Menciptakan
+            <span className="block text-primary-600">Pengalaman Digital</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I'm a dedicated developer who loves turning complex problems into simple, 
-            beautiful solutions. I enjoy working with ambitious teams and clients.
+            Saya seorang developer yang berdedikasi yang senang mengubah masalah kompleks menjadi 
+            solusi yang sederhana dan indah. Saya senang bekerja dengan tim dan klien yang ambisius.
           </p>
         </div>
 
@@ -66,28 +66,28 @@ const About = () => {
           {/* Content */}
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
-              Building the future, one line of code at a time
+              Membangun masa depan, satu baris kode setiap waktu
             </h3>
             
             <div className="space-y-4 text-gray-600 mb-8">
               <p>
-                With over {profileData.experience.replace('+', '')} of experience in web development, 
-                I've had the privilege of working with diverse clients ranging from startups to 
-                established enterprises. My journey began with a simple curiosity about how 
-                websites work, and it has evolved into a passion for creating digital solutions 
-                that make a real impact.
+                Dengan pengalaman lebih dari {profileData.experience.replace('+', '')} dalam pengembangan web, 
+                saya mendapat kesempatan untuk bekerja dengan klien yang beragam mulai dari startup hingga 
+                perusahaan yang sudah mapan. Perjalanan saya dimulai dengan rasa ingin tahu sederhana tentang bagaimana 
+                website bekerja, dan telah berkembang menjadi passion untuk menciptakan solusi digital 
+                yang memberikan dampak nyata.
               </p>
               
               <p>
-                I believe in writing clean, maintainable code and creating user experiences 
-                that are not just functional, but delightful. Whether it's a complex web 
-                application or a simple landing page, I approach every project with the same 
-                level of enthusiasm and attention to detail.
+                Saya percaya pada penulisan kode yang bersih dan mudah dipelihara serta menciptakan pengalaman pengguna 
+                yang tidak hanya fungsional, tetapi juga menyenangkan. Baik itu aplikasi web yang kompleks 
+                atau halaman landing sederhana, saya mendekati setiap project dengan tingkat 
+                antusiasme dan perhatian detail yang sama.
               </p>
               
               <p>
-                When I'm not coding, you can find me exploring new technologies, contributing 
-                to open-source projects, or sharing my knowledge with the developer community 
+                Ketika tidak sedang coding, Anda bisa menemukan saya mengeksplorasi teknologi baru, berkontribusi 
+                pada project open-source, atau berbagi pengetahuan dengan komunitas developer 
                 through blogs and mentoring.
               </p>
             </div>
@@ -98,13 +98,13 @@ const About = () => {
                 <div className="text-3xl font-bold text-primary-600 mb-2">
                   {profileData.projectsCompleted}
                 </div>
-                <div className="text-sm text-gray-600">Projects Completed</div>
+                <div className="text-sm text-gray-600">Project Selesai</div>
               </div>
               <div className="text-center p-4 bg-white rounded-lg">
                 <div className="text-3xl font-bold text-primary-600 mb-2">
                   {profileData.happyClients}
                 </div>
-                <div className="text-sm text-gray-600">Happy Clients</div>
+                <div className="text-sm text-gray-600">Klien Puas</div>
               </div>
             </div>
           </div>

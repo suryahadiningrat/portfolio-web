@@ -9,11 +9,11 @@ const Header = () => {
   const [activeSection, setActiveSection] = useState('hero');
 
   const navigationItems = useMemo(() => [
-    { name: 'Home', href: 'hero' },
-    { name: 'About', href: 'about' },
-    { name: 'Skills', href: 'skills' },
-    { name: 'Projects', href: 'projects' },
-    { name: 'Contact', href: 'contact' },
+    { name: 'Beranda', href: 'hero' },
+    { name: 'Tentang', href: 'about' },
+    { name: 'Keahlian', href: 'skills' },
+    { name: 'Proyek', href: 'projects' },
+    { name: 'Kontak', href: 'contact' },
   ], []);
 
   useEffect(() => {
@@ -109,7 +109,7 @@ const Header = () => {
           {/* Desktop CTA */}
           <div className="hidden md:block">
             <Button onClick={handleContactClick} size="sm">
-              Let's Talk
+              Mari Bicara
             </Button>
           </div>
 
@@ -147,7 +147,7 @@ const Header = () => {
               ))}
               <div className="pt-2">
                 <Button onClick={handleContactClick} className="w-full">
-                  Let's Talk
+                  Mari Bicara
                 </Button>
               </div>
             </div>

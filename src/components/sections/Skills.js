@@ -46,15 +46,15 @@ const Skills = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-2 bg-primary-100 text-primary-600 rounded-full text-sm font-medium mb-4">
-            Skills & Expertise
+            Keahlian & Expertise
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Technologies I
-            <span className="block text-primary-600">Love Working With</span>
+            Teknologi yang
+            <span className="block text-primary-600">Saya Kuasai</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I'm constantly learning and evolving my skillset to stay current with 
-            the latest technologies and best practices in web development.
+            Saya terus belajar dan mengembangkan keahlian untuk mengikuti 
+            teknologi terbaru dan praktik terbaik dalam pengembangan web.
           </p>
         </div>
 
@@ -100,7 +100,7 @@ const Skills = () => {
                     {skill.name}
                   </h3>
                   <div className="flex items-center justify-between mt-2">
-                    <span className="text-sm text-gray-600">Proficiency</span>
+                    <span className="text-sm text-gray-600">Kemahiran</span>
                     <span className="text-sm font-medium text-primary-600">
                       {skill.level}%
                     </span>
@@ -154,7 +154,7 @@ const Skills = () => {
                     {category.skills.length}
                   </div>
                   <div className="text-sm text-gray-600">
-                    {category.name} Skills
+                    {category.name} Keahlian
                   </div>
                 </div>
               ))}

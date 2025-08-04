@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "title": "E-Commerce Platform",
-    "description": "Modern e-commerce platform with admin dashboard and payment integration",
-    "longDescription": "A comprehensive e-commerce solution built with React and Node.js, featuring real-time inventory management, secure payment processing through Stripe, and an intuitive admin dashboard. The platform includes user authentication, order tracking, and responsive design for optimal mobile experience.",
+    "title": "Platform E-Commerce",
+    "description": "Platform e-commerce modern dengan dashboard admin dan integrasi pembayaran",
+    "longDescription": "Solusi e-commerce komprehensif yang dibangun dengan React dan Node.js, menampilkan manajemen inventori real-time, pemrosesan pembayaran aman melalui Stripe, dan dashboard admin yang intuitif. Platform ini mencakup autentikasi pengguna, pelacakan pesanan, dan desain responsif untuk pengalaman mobile yang optimal.",
     "techStack": ["React", "Node.js", "MongoDB", "Stripe", "TailwindCSS"],
     "features": [
-      "User authentication & authorization",
-      "Real-time inventory management",
-      "Secure payment processing",
-      "Admin dashboard",
-      "Order tracking system",
-      "Responsive design"
+      "Autentikasi & otorisasi pengguna",
+      "Manajemen inventori real-time",
+      "Pemrosesan pembayaran aman",
+      "Dashboard admin",
+      "Sistem pelacakan pesanan",
+      "Desain responsif"
     ],
     "images": {
       "thumbnail": "/images/projects/ecommerce-thumb.jpg",
@@ -25,25 +25,25 @@
       "demo": "https://ecommerce-demo.com",
       "github": "https://github.com/johndoe/ecommerce-platform"
     },
-    "status": "Completed",
+    "status": "Selesai",
     "date": "2024-01-15",
     "client": "TechStore Inc.",
-    "duration": "3 months",
+    "duration": "3 bulan",
     "featured": true
   },
   {
     "id": 2,
-    "title": "Task Management App",
-    "description": "Collaborative task management application with real-time updates",
-    "longDescription": "A powerful task management application designed for teams, featuring real-time collaboration, drag-and-drop functionality, and comprehensive project tracking. Built with modern technologies to ensure smooth performance and excellent user experience.",
+    "title": "Aplikasi Manajemen Tugas",
+    "description": "Aplikasi manajemen tugas kolaboratif dengan pembaruan real-time",
+    "longDescription": "Aplikasi manajemen tugas yang powerful untuk tim, menampilkan kolaborasi real-time, fungsionalitas drag-and-drop, dan pelacakan proyek yang komprehensif. Dibangun dengan teknologi modern untuk memastikan performa yang lancar dan pengalaman pengguna yang excellent.",
     "techStack": ["React", "TypeScript", "Firebase", "Material-UI"],
     "features": [
-      "Real-time collaboration",
-      "Drag & drop interface",
-      "Team management",
-      "Progress tracking",
-      "File attachments",
-      "Notifications system"
+      "Kolaborasi real-time",
+      "Interface drag & drop",
+      "Manajemen tim",
+      "Pelacakan progress",
+      "Lampiran file",
+      "Sistem notifikasi"
     ],
     "images": {
       "thumbnail": "/images/projects/taskapp-thumb.jpg",
@@ -56,25 +56,25 @@
       "demo": "https://taskapp-demo.com",
       "github": "https://github.com/johndoe/task-management"
     },
-    "status": "Completed",
+    "status": "Selesai",
     "date": "2023-11-20",
     "client": "Startup XYZ",
-    "duration": "2 months",
+    "duration": "2 bulan",
     "featured": true
   },
   {
     "id": 3,
-    "title": "Weather Dashboard",
-    "description": "Beautiful weather dashboard with location-based forecasts",
-    "longDescription": "An elegant weather dashboard that provides detailed weather information and forecasts. Features include location-based weather data, interactive maps, and beautiful visualizations of weather patterns.",
+    "title": "Dashboard Cuaca",
+    "description": "Dashboard cuaca yang indah dengan prakiraan berdasarkan lokasi",
+    "longDescription": "Dashboard cuaca yang elegan yang menyediakan informasi cuaca detail dan prakiraan. Fitur termasuk data cuaca berdasarkan lokasi, peta interaktif, dan visualisasi pola cuaca yang indah.",
     "techStack": ["Vue.js", "Chart.js", "OpenWeather API", "CSS3"],
     "features": [
-      "Location-based weather",
-      "7-day forecast",
-      "Interactive charts",
-      "Weather maps",
-      "Responsive design",
-      "Dark/Light mode"
+      "Cuaca berdasarkan lokasi",
+      "Prakiraan 7 hari",
+      "Chart interaktif",
+      "Peta cuaca",
+      "Desain responsif",
+      "Mode gelap/terang"
     ],
     "images": {
       "thumbnail": "/images/projects/weather-thumb.jpg",
@@ -87,24 +87,24 @@
       "demo": "https://weather-dashboard-demo.com",
       "github": "https://github.com/johndoe/weather-dashboard"
     },
-    "status": "Completed",
+    "status": "Selesai",
     "date": "2023-09-10",
-    "client": "Personal Project",
-    "duration": "1 month",
+    "client": "Proyek Pribadi",
+    "duration": "1 bulan",
     "featured": false
   },
   {
     "id": 4,
-    "title": "Restaurant Website",
-    "description": "Modern restaurant website with online reservation system",
-    "longDescription": "A sophisticated restaurant website featuring online reservations, menu showcase, and customer reviews. Built with performance and SEO in mind to attract more customers and streamline operations.",
+    "title": "Website Restoran",
+    "description": "Website restoran modern dengan sistem reservasi online",
+    "longDescription": "Website restoran yang sophisticated menampilkan reservasi online, showcase menu, dan review pelanggan. Dibangun dengan fokus pada performa dan SEO untuk menarik lebih banyak pelanggan dan mempermudah operasional.",
     "techStack": ["Next.js", "Prisma", "PostgreSQL", "TailwindCSS"],
     "features": [
-      "Online reservations",
-      "Digital menu",
-      "Customer reviews",
-      "Photo gallery",
-      "Contact forms",
+      "Reservasi online",
+      "Menu digital",
+      "Review pelanggan",
+      "Galeri foto",
+      "Form kontak",
       "SEO optimized"
     ],
     "images": {
@@ -118,25 +118,25 @@
       "demo": "https://restaurant-demo.com",
       "github": "https://github.com/johndoe/restaurant-website"
     },
-    "status": "Completed",
+    "status": "Selesai",
     "date": "2023-07-05",
     "client": "Bella Vista Restaurant",
-    "duration": "6 weeks",
+    "duration": "6 minggu",
     "featured": true
   },
   {
     "id": 5,
-    "title": "Fitness Tracker",
-    "description": "Personal fitness tracking app with workout plans",
-    "longDescription": "A comprehensive fitness tracking application that helps users monitor their workouts, track progress, and follow personalized fitness plans. Features include exercise database, progress charts, and social sharing.",
+    "title": "Aplikasi Fitness Tracker",
+    "description": "Aplikasi pelacakan fitness personal dengan rencana workout",
+    "longDescription": "Aplikasi pelacakan fitness komprehensif yang membantu pengguna memantau workout mereka, melacak progress, dan mengikuti rencana fitness yang dipersonalisasi. Fitur termasuk database latihan, chart progress, dan social sharing.",
     "techStack": ["React Native", "Redux", "Firebase", "Chart.js"],
     "features": [
-      "Workout tracking",
-      "Progress analytics",
-      "Custom workout plans",
-      "Exercise database",
+      "Pelacakan workout",
+      "Analitik progress",
+      "Rencana workout custom",
+      "Database latihan",
       "Social sharing",
-      "Goal setting"
+      "Pengaturan goal"
     ],
     "images": {
       "thumbnail": "/images/projects/fitness-thumb.jpg",
@@ -149,25 +149,25 @@
       "demo": "https://fitness-tracker-demo.com",
       "github": "https://github.com/johndoe/fitness-tracker"
     },
-    "status": "In Progress",
+    "status": "Dalam Progress",
     "date": "2024-02-01",
     "client": "FitLife Corp",
-    "duration": "4 months",
+    "duration": "4 bulan",
     "featured": false
   },
   {
     "id": 6,
     "title": "Portfolio CMS",
-    "description": "Content management system for creative portfolios",
-    "longDescription": "A flexible CMS specifically designed for creative professionals to showcase their work. Features drag-and-drop portfolio builder, client galleries, and customizable themes.",
+    "description": "Sistem manajemen konten untuk portfolio kreatif",
+    "longDescription": "CMS fleksibel yang dirancang khusus untuk profesional kreatif untuk menampilkan karya mereka. Fitur drag-and-drop portfolio builder, galeri klien, dan tema yang dapat dikustomisasi.",
     "techStack": ["React", "Node.js", "Express", "MongoDB", "Cloudinary"],
     "features": [
-      "Drag & drop builder",
-      "Client galleries",
-      "Custom themes",
-      "Image optimization",
-      "SEO tools",
-      "Analytics dashboard"
+      "Builder drag & drop",
+      "Galeri klien",
+      "Tema custom",
+      "Optimisasi gambar",
+      "Tool SEO",
+      "Dashboard analitik"
     ],
     "images": {
       "thumbnail": "/images/projects/portfolio-cms-thumb.jpg",
@@ -180,10 +180,10 @@
       "demo": "https://portfolio-cms-demo.com",
       "github": "https://github.com/johndoe/portfolio-cms"
     },
-    "status": "Completed",
+    "status": "Selesai",
     "date": "2023-12-15",
     "client": "Creative Agency",
-    "duration": "5 months",
+    "duration": "5 bulan",
     "featured": true
   }
 ]

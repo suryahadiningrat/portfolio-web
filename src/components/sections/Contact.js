@@ -74,15 +74,15 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-2 bg-primary-100 text-primary-600 rounded-full text-sm font-medium mb-4">
-            Get In Touch
+            Hubungi Saya
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Let's Work
-            <span className="block text-primary-600">Together</span>
+            Mari Bekerja
+            <span className="block text-primary-600">Sama</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Have a project in mind? I'd love to hear about it. 
-            Let's discuss how we can bring your ideas to life via WhatsApp.
+            Punya project dalam pikiran? Saya ingin mendengarnya. 
+            Mari diskusikan bagaimana kita bisa mewujudkan ide Anda melalui WhatsApp.
           </p>
         </div>
 
@@ -93,7 +93,7 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
               {/* Quick Contact */}
               <Card>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  Quick Contact
+                  Kontak Cepat
                 </h3>
                 
                 {profileData && (
@@ -137,12 +137,12 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
               {profileData && (
                 <Card>
                   <h3 className="text-xl font-bold text-gray-900 mb-4">
-                    Availability
+                    Ketersediaan
                   </h3>
                   <div className="flex items-center p-3 bg-green-50 rounded-lg">
                     <div className="w-3 h-3 bg-accent-green rounded-full mr-3 animate-pulse"></div>
                     <div>
-                      <div className="font-medium text-gray-900">Currently Available</div>
+                      <div className="font-medium text-gray-900">Saat Ini Tersedia</div>
                       <div className="text-sm text-gray-600">{profileData.availability}</div>
                     </div>
                   </div>
@@ -152,10 +152,10 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
               {/* WhatsApp Quick Button */}
               <Card>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  Quick Message
+                  Pesan Cepat
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Want to skip the form? Send me a direct message on WhatsApp!
+                  Ingin lewati formulir? Kirim saya pesan langsung di WhatsApp!
                 </p>
                 <a
                   href={`https://wa.me/${profileData?.phone?.replace(/[^0-9]/g, '') || '6289526039436'}?text=Halo! Saya tertarik dengan layanan web development Anda.`}
@@ -183,7 +183,7 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
               <form onSubmit={handleWhatsAppSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    Full Name *
+                    Nama Lengkap *
                   </label>
                   <input
                     type="text"
@@ -193,13 +193,13 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
                     onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-colors"
-                    placeholder="Your full name"
+                    placeholder="Nama lengkap Anda"
                   />
                 </div>
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Email Address
+                    Alamat Email
                   </label>
                   <input
                     type="email"
@@ -208,13 +208,13 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
                     value={formData.email}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-colors"
-                    placeholder="your.email@example.com"
+                    placeholder="email.anda@contoh.com"
                   />
                 </div>
 
                 <div>
                   <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                    Subject
+                    Subjek
                   </label>
                   <input
                     type="text"
@@ -239,7 +239,7 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
                     onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-colors resize-none"
-                    placeholder="Tell me about your project or just say hello..."
+                    placeholder="Ceritakan tentang project Anda atau sekedar say hello..."
                   />
                 </div>
 
@@ -248,11 +248,11 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
                   className="w-full bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors flex items-center justify-center space-x-2 font-medium"
                 >
                   <Send className="w-5 h-5" />
-                  <span>Send via WhatsApp</span>
+                  <span>Kirim via WhatsApp</span>
                 </button>
 
                 <p className="text-sm text-gray-500 text-center">
-                  This will open WhatsApp with your message ready to send
+                  Ini akan membuka WhatsApp dengan pesan Anda siap dikirim
                 </p>
               </form>
             </Card>
@@ -266,11 +266,11 @@ ${formData.email ? `Email saya: ${formData.email}` : ''}`;
               <MessageCircle size={40} />
             </div>
             <h3 className="text-2xl font-bold mb-4">
-              Ready to start your project?
+              Siap memulai project Anda?
             </h3>
             <p className="text-lg mb-6 opacity-90">
-              Let's turn your ideas into reality. I'm excited to hear about your project 
-              and discuss how we can work together.
+              Mari wujudkan ide Anda menjadi kenyataan. Saya senang mendengar tentang project Anda 
+              dan diskusikan bagaimana kita bisa bekerja sama.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               {profileData && (
