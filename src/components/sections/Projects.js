@@ -67,7 +67,7 @@ const Projects = () => {
             <span className="block text-primary-600">Saya Kerjakan</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Koleksi proyek yang menunjukkan keterampilan dan hasrat saya untuk menciptakan
+            Koleksi project yang menunjukkan keterampilan dan hasrat saya untuk menciptakan
             pengalaman digital yang luar biasa.
           </p>
         </div>
