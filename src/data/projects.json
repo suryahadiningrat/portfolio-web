@@ -33,6 +33,35 @@
   },
   {
     "id": 2,
+    "title": "Mamasuka",
+    "description": "Platform untuk mengelola blog dan konten terkait product dan resep makanan dari mamasuka.",
+    "longDescription": "Platform untuk mengelola blog dan konten terkait product dan resep makanan dari mamasuka. Platform ini memungkinkan pengguna untuk mengelola konten blog, produk, dan resep dengan mudah.",
+    "techStack": ["Website", "Blog", "CMS", "Landing Page"],
+    "features": [
+      "Fitur manajemen konten blog",
+      "Integrasi dengan sistem CMS untuk manajemen konten",
+      "Autentikasi & otorisasi pengguna",
+      "Fitur manajement resep dan produk"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/mamasuka/mamasuka-logo.png",
+      "gallery": [
+        "/images/projects/mamasuka/1.png",
+        "/images/projects/mamasuka/2.png",
+        "/images/projects/mamasuka/3.png"
+      ]
+    },
+    "links": {
+      "demo": "https://mamasuka.com"
+    },
+    "status": "Completed",
+    "date": "2025-02-20",
+    "client": "Mamasuka",
+    "duration": "1 Tahun",
+    "featured": true
+  },
+  {
+    "id": 3,
     "title": "Wondr By BNI",
     "description": "Website landing page product BNI Wondr.",
     "longDescription": "Website landing page untuk product BNI Wondr yang menyediakan informasi lengkap tentang produk, fitur, dan manfaatnya. Website ini dirancang untuk memberikan pengalaman pengguna yang optimal dengan desain responsif dan navigasi yang intuitif.",
@@ -60,7 +89,35 @@
     "featured": true
   },
   {
-    "id": 3,
+    "id": 4,
+    "title": "Sisfo BNSP",
+    "description": "Platform untuk mengelola informasi dan data terkait sertifikasi profesi.",
+    "longDescription": "Platform untuk mengelola informasi dan data terkait sertifikasi profesi dengan fitur-fitur canggih. Platform ini memungkinkan pengguna untuk mengakses informasi sertifikasi, mengelola data, dan melakukan pendaftaran secara online.",
+    "techStack": ["CMS", "Website"],
+    "features": [
+      "Fitur manajemen data sertifikasi profesi",
+      "Integrasi dengan sistem CMS untuk manajemen data",
+      "Autentikasi & otorisasi pengguna",
+      "Dashboard admin yang intuitif"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/bnsp/logo-bnsp.webp",
+      "gallery": [
+        "/images/projects/bnsp/1.png",
+        "/images/projects/bnsp/2.png"
+      ]
+    },
+    "links": {
+      "demo": "https://bnsp.go.id"
+    },
+    "status": "Completed",
+    "date": "2023-07-09",
+    "client": "Badan Nasional Sertifikasi Profesi (BNSP)",
+    "duration": "1 Tahun",
+    "featured": false
+  },
+  {
+    "id": 5,
     "title": "Online Video Platform (OVP)",
     "description": "Platform untuk mengelola dan mendistribusikan konten video secara online.",
     "longDescription": "Solusi untuk mengelola dan mendistribusikan konten video secara online dengan fitur-fitur canggih. Platform ini memungkinkan pengguna untuk mengupload, mengelola, dan membagikan video dengan mudah.",
@@ -91,35 +148,7 @@
     "featured": false
   },
   {
-    "id": 4,
-    "title": "Sisfo BNSP",
-    "description": "Platform untuk mengelola informasi dan data terkait sertifikasi profesi.",
-    "longDescription": "Platform untuk mengelola informasi dan data terkait sertifikasi profesi dengan fitur-fitur canggih. Platform ini memungkinkan pengguna untuk mengakses informasi sertifikasi, mengelola data, dan melakukan pendaftaran secara online.",
-    "techStack": ["CMS", "Website"],
-    "features": [
-      "Fitur manajemen data sertifikasi profesi",
-      "Integrasi dengan sistem CMS untuk manajemen data",
-      "Autentikasi & otorisasi pengguna",
-      "Dashboard admin yang intuitif"
-    ],
-    "images": {
-      "thumbnail": "/images/projects/bnsp/logo-bnsp.webp",
-      "gallery": [
-        "/images/projects/bnsp/1.png",
-        "/images/projects/bnsp/2.png"
-      ]
-    },
-    "links": {
-      "demo": "https://bnsp.go.id"
-    },
-    "status": "Completed",
-    "date": "2023-07-09",
-    "client": "Badan Nasional Sertifikasi Profesi (BNSP)",
-    "duration": "1 Tahun",
-    "featured": true
-  },
-  {
-    "id": 5,
+    "id": 6,
     "title": "M4CR - KLHK",
     "description": "Platform untuk mengelola data mangrove dan restorasi ekosistem pesisir.",
     "longDescription": "Platform untuk mengelola data mangrove dan restorasi ekosistem pesisir dengan fitur-fitur canggih. Platform ini memungkinkan pengguna untuk mengelola data mangrove, melakukan pemantauan, dan mendukung upaya restorasi ekosistem pesisir.",
@@ -145,10 +174,10 @@
     "date": "2024-10-18",
     "client": "Kementrian Lingkungan Hidup dan Kehutanan Republik Indonesia.",
     "duration": "1 Tahun",
-    "featured": true
+    "featured": false
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "SIMUH KEMENDESA",
     "description": "Platform untuk mengelola data hibah dan bantuan sosial di desa.",
     "longDescription": "Platform untuk mengelola data hibah dan bantuan sosial di desa dengan fitur-fitur canggih. Platform ini memungkinkan pengguna untuk mengelola data hibah, bantuan sosial, dan informasi terkait lainnya dengan mudah.",
@@ -175,34 +204,5 @@
     "client": "Kementrian Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Republik Indonesia.",
     "duration": "1 Tahun",
     "featured": false
-  },
-  {
-    "id": 7,
-    "title": "Mamasuka",
-    "description": "Platform untuk mengelola blog dan konten terkait product dan resep makanan dari mamasuka.",
-    "longDescription": "Platform untuk mengelola blog dan konten terkait product dan resep makanan dari mamasuka. Platform ini memungkinkan pengguna untuk mengelola konten blog, produk, dan resep dengan mudah.",
-    "techStack": ["Website", "Blog", "CMS", "Landing Page"],
-    "features": [
-      "Fitur manajemen konten blog",
-      "Integrasi dengan sistem CMS untuk manajemen konten",
-      "Autentikasi & otorisasi pengguna",
-      "Fitur manajement resep dan produk"
-    ],
-    "images": {
-      "thumbnail": "/images/projects/mamasuka/mamasuka-logo.png",
-      "gallery": [
-        "/images/projects/mamasuka/1.png",
-        "/images/projects/mamasuka/2.png",
-        "/images/projects/mamasuka/3.png"
-      ]
-    },
-    "links": {
-      "demo": "https://mamasuka.com"
-    },
-    "status": "Completed",
-    "date": "2025-02-20",
-    "client": "Mamasuka",
-    "duration": "1 Tahun",
-    "featured": true
   }
 ]
