@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Suzuki Indonesia",
+    "logo": "/images/clients/logo-suzuki.png",
+    "category": "Corporate",
+    "website": "https://suzuki.co.id"
+  },
+  {
+    "name": "Bank BNI",
+    "logo": "/images/clients/logo-bni.png",
+    "category": "Corporate",
+    "website": "https://bni.co.id"
+  },
+  {
+    "name": "Kementerian Desa Pembangunan Daerah Tertinggal dan Transmigrasi",
+    "logo": "/images/clients/logo-kemendesa.webp",
+    "category": "Government",
+    "website": "https://kemendesa.go.id"
+  },
+  {
+    "name": "Badan Nasional Sertifikasi Profesi (BNSP)",
+    "logo": "/images/clients/logo-bnsp.webp",
+    "category": "Government",
+    "website": "https://bnsp.go.id"
+  },
+  {
+    "name": "Kementerian Lingkungan Hidup dan Kehutanan (KLHK)",
+    "logo": "/images/clients/logo-klhk.jpg",
+    "category": "Government",
+    "website": "https://menlhk.go.id"
+  },
+  {
+    "name": "Mamasuka",
+    "logo": "/images/clients/logo-mamasuka.png",
+    "category": "Corporate",
+    "website": "https://mamasuka.com"
+  }
+]

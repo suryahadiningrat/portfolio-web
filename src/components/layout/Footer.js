@@ -19,6 +19,7 @@ const Footer = () => {
     'Tentang': 'about', 
     'Keahlian': 'skills',
     'Project': 'projects',
+    'Clients': 'clients',
     'Kontak': 'contact'
   };
 
@@ -76,7 +77,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Menu</h3>
             <ul className="space-y-2">
-              {['Beranda', 'Tentang', 'Keahlian', 'Project', 'Kontak'].map((link) => (
+              {['Beranda', 'Tentang', 'Keahlian', 'Project', 'Clients', 'Kontak'].map((link) => (
                 <li key={link}>
                   <button
                     onClick={() => handleNavClick(link)}
