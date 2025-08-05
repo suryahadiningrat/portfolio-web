@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Modal = ({ isOpen, onClose, title, children, maxWidth = 'max-w-md' }) => {
+const Modal = ({ isOpen, onClose, title, children, maxWidth = 'max-w-6xl' }) => {
   if (!isOpen) return null;
 
   const handleBackdropClick = (e) => {

@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "title": "Platform E-Commerce",
-    "description": "Platform e-commerce modern dengan dashboard admin dan integrasi pembayaran",
-    "longDescription": "Solusi e-commerce komprehensif yang dibangun dengan React dan Node.js, menampilkan manajemen inventori real-time, pemrosesan pembayaran aman melalui Stripe, dan dashboard admin yang intuitif. Platform ini mencakup autentikasi pengguna, pelacakan pesanan, dan desain responsif untuk pengalaman mobile yang optimal.",
-    "techStack": ["React", "Node.js", "MongoDB", "Stripe", "TailwindCSS"],
+    "title": "Suzuki Hyperlocal",
+    "description": "Platform Customer Relationship Management (CRM) untuk Suzuki yang menghubungkan dealer, pelanggan, dan layanan sales.",
+    "longDescription": "Solusi untuk mengelola website Suzuki dealer dengan fitur CRM yang menghubungkan dealer, pelanggan, dan layanan sales. Platform ini memungkinkan dealer untuk mengelola website, memfollow-up leads, dan menaikkan penjualan mobil secara efisien.",
+    "techStack": ["CMS", "Website", "Android Apps", "IOS Apps", "Website Penjualan", "Company Profile", "Blog"],
     "features": [
+      "Integrasi dengan sistem dealer Suzuki",
+      "Fitur manajemen leads yang efisien",
       "Autentikasi & otorisasi pengguna",
-      "Manajemen inventori real-time",
-      "Pemrosesan pembayaran aman",
-      "Dashboard admin",
-      "Sistem pelacakan pesanan",
-      "Desain responsif"
+      "Dashboard admin yang intuitif",
+      "Desain responsif untuk pengalaman mobile yang optimal",
+      "Integrasi dengan sistem CMS untuk manajemen leads"
     ],
     "images": {
       "thumbnail": "/images/projects/ecommerce-thumb.jpg",
@@ -22,13 +22,13 @@
       ]
     },
     "links": {
-      "demo": "https://ecommerce-demo.com",
+      "demo": "https://suzukinjs.co.id",
       "github": "https://github.com/johndoe/ecommerce-platform"
     },
-    "status": "Selesai",
-    "date": "2024-01-15",
-    "client": "TechStore Inc.",
-    "duration": "3 bulan",
+    "status": "Maintenance",
+    "date": "2020-04-01",
+    "client": "Suzuki Indonesia.",
+    "duration": "5 Tahun",
     "featured": true
   }
 ]

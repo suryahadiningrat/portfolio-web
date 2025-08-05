@@ -4,12 +4,25 @@ import useData from '../../hooks/useData';
 import Card from '../ui/Card';
 import Button from '../ui/Button';
 import LoadingSpinner from '../ui/LoadingSpinner';
+import ProjectDetailModal from '../modals/ProjectDetailModal';
 import { formatDate } from '../../utils/helpers';
 
 const Projects = () => {
   const { data: projectsData, loading, error } = useData('projects');
   const [selectedFilter, setSelectedFilter] = useState('All');
   const [showAll, setShowAll] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openProjectModal = (project) => {
+    setSelectedProject(project);
+    setIsModalOpen(true);
+  };
+
+  const closeProjectModal = () => {
+    setIsModalOpen(false);
+    setSelectedProject(null);
+  };
 
   // Get all unique tech stack items for filtering
   const techFilters = useMemo(() => {
@@ -67,7 +80,7 @@ const Projects = () => {
             <span className="block text-primary-600">Saya Kerjakan</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Koleksi project yang menunjukkan keterampilan dan hasrat saya untuk menciptakan
+            Koleksi proyek yang menunjukkan keterampilan dan hasrat saya untuk menciptakan
             pengalaman digital yang luar biasa.
           </p>
         </div>
@@ -76,7 +89,7 @@ const Projects = () => {
         <div className="flex flex-wrap justify-center gap-2 mb-12">
           <div className="flex items-center gap-2 mb-4">
             <Filter size={20} className="text-gray-500" />
-            <span className="text-sm text-gray-500">Filter berdasarkan kategori:</span>
+            <span className="text-sm text-gray-500">Filter berdasarkan teknologi:</span>
           </div>
           <div className="flex flex-wrap justify-center gap-2">
             {techFilters.map((tech) => (
@@ -98,7 +111,11 @@ const Projects = () => {
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {filteredProjects.map((project) => (
-            <Card key={project.id} className="group overflow-hidden">
+            <Card 
+              key={project.id} 
+              className="group overflow-hidden cursor-pointer hover:shadow-xl transition-shadow duration-300"
+              onClick={() => openProjectModal(project)}
+            >
               {/* Project Image */}
               <div className="relative overflow-hidden rounded-lg mb-4 bg-gray-100">
                 <img
@@ -142,6 +159,7 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-2 bg-white rounded-full text-primary-600 hover:bg-primary-600 hover:text-white transition-colors"
+                        onClick={(e) => e.stopPropagation()}
                       >
                         <ExternalLink size={20} />
                       </a>
@@ -152,6 +170,7 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-2 bg-white rounded-full text-primary-600 hover:bg-primary-600 hover:text-white transition-colors"
+                        onClick={(e) => e.stopPropagation()}
                       >
                         <Github size={20} />
                       </a>
@@ -207,7 +226,10 @@ const Projects = () => {
                     <Button
                       size="sm"
                       className="flex-1"
-                      onClick={() => window.open(project.links.demo, '_blank')}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        window.open(project.links.demo, '_blank');
+                      }}
                     >
                       <ExternalLink size={16} className="mr-1" />
                       Demo
@@ -218,7 +240,10 @@ const Projects = () => {
                       variant="outline"
                       size="sm"
                       className="flex-1"
-                      onClick={() => window.open(project.links.github, '_blank')}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        window.open(project.links.github, '_blank');
+                      }}
                     >
                       <Github size={16} className="mr-1" />
                       Code
@@ -263,7 +288,7 @@ const Projects = () => {
                 <div className="text-3xl font-bold text-primary-600 mb-2">
                   {techFilters.length - 1}
                 </div>
-                <div className="text-sm text-gray-600">Technologies</div>
+                <div className="text-sm text-gray-600">Category</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-primary-600 mb-2">
@@ -274,6 +299,13 @@ const Projects = () => {
             </div>
           </Card>
         </div>
+
+        {/* Project Detail Modal */}
+        <ProjectDetailModal
+          isOpen={isModalOpen}
+          onClose={closeProjectModal}
+          project={selectedProject}
+        />
       </div>
     </section>
   );
