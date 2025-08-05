@@ -4,7 +4,7 @@
     "title": "Suzuki Hyperlocal",
     "description": "Platform Customer Relationship Management (CRM) untuk Suzuki yang menghubungkan dealer, pelanggan, dan layanan sales.",
     "longDescription": "Solusi untuk mengelola website Suzuki dealer dengan fitur CRM yang menghubungkan dealer, pelanggan, dan layanan sales. Platform ini memungkinkan dealer untuk mengelola website, memfollow-up leads, dan menaikkan penjualan mobil secara efisien.",
-    "techStack": ["CMS", "Website", "Android Apps", "IOS Apps", "Website Penjualan", "Company Profile", "Blog"],
+    "techStack": ["CMS", "Website", "Android Apps", "IOS Apps", "Blog", "Landing Page"],
     "features": [
       "Integrasi dengan sistem dealer Suzuki",
       "Fitur manajemen leads yang efisien",
@@ -14,11 +14,12 @@
       "Integrasi dengan sistem CMS untuk manajemen leads"
     ],
     "images": {
-      "thumbnail": "/images/projects/ecommerce-thumb.jpg",
+      "thumbnail": "/images/projects/hyperlocal/logo-suzuki.png",
       "gallery": [
-        "/images/projects/ecommerce-1.jpg",
-        "/images/projects/ecommerce-2.jpg",
-        "/images/projects/ecommerce-3.jpg"
+        "/images/projects/hyperlocal/1.png",
+        "/images/projects/hyperlocal/2.png",
+        "/images/projects/hyperlocal/3.png",
+        "/images/projects/hyperlocal/4.png"
       ]
     },
     "links": {
@@ -42,11 +43,11 @@
       "Navigasi yang intuitif dan mudah digunakan"
     ],
     "images": {
-      "thumbnail": "/images/projects/ecommerce-thumb.jpg",
+      "thumbnail": "/images/projects/wondr/wondr-logo.webp",
       "gallery": [
-        "/images/projects/ecommerce-1.jpg",
-        "/images/projects/ecommerce-2.jpg",
-        "/images/projects/ecommerce-3.jpg"
+        "/images/projects/wondr/1.png",
+        "/images/projects/wondr/2.png",
+        "/images/projects/wondr/3.png"
       ]
     },
     "links": {
@@ -72,11 +73,12 @@
       "Fitur pencarian dan rekomendasi video"
     ],
     "images": {
-      "thumbnail": "/images/projects/ecommerce-thumb.jpg",
+      "thumbnail": "/images/projects/ovp/logo-ovp.png",
       "gallery": [
-        "/images/projects/ecommerce-1.jpg",
-        "/images/projects/ecommerce-2.jpg",
-        "/images/projects/ecommerce-3.jpg"
+        "/images/projects/ovp/1.png",
+        "/images/projects/ovp/2.png",
+        "/images/projects/ovp/3.png",
+        "/images/projects/ovp/4.png"
       ]
     },
     "links": {
@@ -86,38 +88,67 @@
     "date": "2023-04-09",
     "client": "Kementrian Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Republik Indonesia.",
     "duration": "2 Tahun",
-    "featured": true
+    "featured": false
   },
   {
     "id": 4,
-    "title": "Tolong+",
-    "description": "Platform untuk video call dan memanggil bantuan secara real-time.",
-    "longDescription": "Platform untuk menangani pertolongan pertama dengan video call dan memanggil bantuan secara real-time dengan fitur-fitur canggih. Platform ini memungkinkan pengguna untuk melakukan panggilan video dan meminta bantuan dengan mudah.",
-    "techStack": ["Android Apps"],
+    "title": "Sisfo BNSP",
+    "description": "Platform untuk mengelola informasi dan data terkait sertifikasi profesi.",
+    "longDescription": "Platform untuk mengelola informasi dan data terkait sertifikasi profesi dengan fitur-fitur canggih. Platform ini memungkinkan pengguna untuk mengakses informasi sertifikasi, mengelola data, dan melakukan pendaftaran secara online.",
+    "techStack": ["CMS", "Website"],
     "features": [
-      "Fitur panggilan video real-time",
-      "Autentikasi pengguna dan manajemen akun",
-      "Desain responsif untuk pengalaman mobile yang optimal"
+      "Fitur manajemen data sertifikasi profesi",
+      "Integrasi dengan sistem CMS untuk manajemen data",
+      "Autentikasi & otorisasi pengguna",
+      "Dashboard admin yang intuitif"
     ],
     "images": {
-      "thumbnail": "/images/projects/ecommerce-thumb.jpg",
+      "thumbnail": "/images/projects/bnsp/logo-bnsp.webp",
       "gallery": [
-        "/images/projects/ecommerce-1.jpg",
-        "/images/projects/ecommerce-2.jpg",
-        "/images/projects/ecommerce-3.jpg"
+        "/images/projects/bnsp/1.png",
+        "/images/projects/bnsp/2.png"
       ]
     },
     "links": {
-      "demo": "https://tolongplus.com"
+      "demo": "https://bnsp.go.id"
     },
     "status": "Completed",
-    "date": "2022-02-20",
-    "client": "Tolong+",
+    "date": "2023-07-09",
+    "client": "Badan Nasional Sertifikasi Profesi (BNSP)",
     "duration": "1 Tahun",
     "featured": true
   },
   {
     "id": 5,
+    "title": "M4CR - KLHK",
+    "description": "Platform untuk mengelola data mangrove dan restorasi ekosistem pesisir.",
+    "longDescription": "Platform untuk mengelola data mangrove dan restorasi ekosistem pesisir dengan fitur-fitur canggih. Platform ini memungkinkan pengguna untuk mengelola data mangrove, melakukan pemantauan, dan mendukung upaya restorasi ekosistem pesisir.",
+    "techStack": ["CMS", "Website"],
+    "features": [
+      "Fitur manajemen data mangrove dan restorasi ekosistem",
+      "Integrasi dengan sistem CMS untuk manajemen data",
+      "Autentikasi & otorisasi pengguna",
+      "Satelite imagery integration for monitoring"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/m4cr/klhk-logo.jpeg",
+      "gallery": [
+        "/images/projects/m4cr/1.png",
+        "/images/projects/m4cr/2.png",
+        "/images/projects/m4cr/3.png"
+      ]
+    },
+    "links": {
+      "demo": "https://demo.ptnaghayasha.com"
+    },
+    "status": "Maintenance",
+    "date": "2024-10-18",
+    "client": "Kementrian Lingkungan Hidup dan Kehutanan Republik Indonesia.",
+    "duration": "1 Tahun",
+    "featured": true
+  },
+  {
+    "id": 6,
     "title": "SIMUH KEMENDESA",
     "description": "Platform untuk mengelola data hibah dan bantuan sosial di desa.",
     "longDescription": "Platform untuk mengelola data hibah dan bantuan sosial di desa dengan fitur-fitur canggih. Platform ini memungkinkan pengguna untuk mengelola data hibah, bantuan sosial, dan informasi terkait lainnya dengan mudah.",
@@ -129,11 +160,11 @@
       "Dashboard admin yang intuitif"
     ],
     "images": {
-      "thumbnail": "/images/projects/ecommerce-thumb.jpg",
+      "thumbnail": "/images/projects/simuh/kemendesa-logo.webp",
       "gallery": [
-        "/images/projects/ecommerce-1.jpg",
-        "/images/projects/ecommerce-2.jpg",
-        "/images/projects/ecommerce-3.jpg"
+        "/images/projects/simuh/1.png",
+        "/images/projects/simuh/2.png",
+        "/images/projects/simuh/3.png"
       ]
     },
     "links": {
@@ -142,6 +173,35 @@
     "status": "Completed",
     "date": "2023-04-20",
     "client": "Kementrian Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Republik Indonesia.",
+    "duration": "1 Tahun",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "Mamasuka",
+    "description": "Platform untuk mengelola blog dan konten terkait product dan resep makanan dari mamasuka.",
+    "longDescription": "Platform untuk mengelola blog dan konten terkait product dan resep makanan dari mamasuka. Platform ini memungkinkan pengguna untuk mengelola konten blog, produk, dan resep dengan mudah.",
+    "techStack": ["Website", "Blog", "CMS", "Landing Page"],
+    "features": [
+      "Fitur manajemen konten blog",
+      "Integrasi dengan sistem CMS untuk manajemen konten",
+      "Autentikasi & otorisasi pengguna",
+      "Fitur manajement resep dan produk"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/mamasuka/mamasuka-logo.png",
+      "gallery": [
+        "/images/projects/mamasuka/1.png",
+        "/images/projects/mamasuka/2.png",
+        "/images/projects/mamasuka/3.png"
+      ]
+    },
+    "links": {
+      "demo": "https://mamasuka.com"
+    },
+    "status": "Completed",
+    "date": "2025-02-20",
+    "client": "Mamasuka",
     "duration": "1 Tahun",
     "featured": true
   }
