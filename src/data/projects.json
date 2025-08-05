@@ -22,13 +22,127 @@
       ]
     },
     "links": {
-      "demo": "https://suzukinjs.co.id",
-      "github": "https://github.com/johndoe/ecommerce-platform"
+      "demo": "https://suzukinjs.co.id"
     },
     "status": "Maintenance",
     "date": "2020-04-01",
     "client": "Suzuki Indonesia.",
     "duration": "5 Tahun",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Wondr By BNI",
+    "description": "Website landing page product BNI Wondr.",
+    "longDescription": "Website landing page untuk product BNI Wondr yang menyediakan informasi lengkap tentang produk, fitur, dan manfaatnya. Website ini dirancang untuk memberikan pengalaman pengguna yang optimal dengan desain responsif dan navigasi yang intuitif.",
+    "techStack": ["Website", "Landing Page"],
+    "features": [
+      "Desain responsif untuk pengalaman mobile yang optimal",
+      "Informasi lengkap tentang produk BNI Wondr",
+      "Navigasi yang intuitif dan mudah digunakan"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/ecommerce-thumb.jpg",
+      "gallery": [
+        "/images/projects/ecommerce-1.jpg",
+        "/images/projects/ecommerce-2.jpg",
+        "/images/projects/ecommerce-3.jpg"
+      ]
+    },
+    "links": {
+      "demo": "https://wondr.bni.co.id"
+    },
+    "status": "Completed",
+    "date": "2024-07-16",
+    "client": "BNI",
+    "duration": "6 Bulan",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Online Video Platform (OVP)",
+    "description": "Platform untuk mengelola dan mendistribusikan konten video secara online.",
+    "longDescription": "Solusi untuk mengelola dan mendistribusikan konten video secara online dengan fitur-fitur canggih. Platform ini memungkinkan pengguna untuk mengupload, mengelola, dan membagikan video dengan mudah.",
+    "techStack": ["Video Streaming Platform", "CMS", "Website", "Android Apps", "IOS Apps"],
+    "features": [
+      "Fitur upload dan manajemen video",
+      "Integrasi dengan CDN untuk distribusi konten",
+      "Autentikasi pengguna dan manajemen akun",
+      "Desain responsif untuk pengalaman mobile yang optimal",
+      "Fitur pencarian dan rekomendasi video"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/ecommerce-thumb.jpg",
+      "gallery": [
+        "/images/projects/ecommerce-1.jpg",
+        "/images/projects/ecommerce-2.jpg",
+        "/images/projects/ecommerce-3.jpg"
+      ]
+    },
+    "links": {
+      "demo": "https://ovp.kemendesa.go.id"
+    },
+    "status": "Completed",
+    "date": "2023-04-09",
+    "client": "Kementrian Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Republik Indonesia.",
+    "duration": "2 Tahun",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Tolong+",
+    "description": "Platform untuk video call dan memanggil bantuan secara real-time.",
+    "longDescription": "Platform untuk menangani pertolongan pertama dengan video call dan memanggil bantuan secara real-time dengan fitur-fitur canggih. Platform ini memungkinkan pengguna untuk melakukan panggilan video dan meminta bantuan dengan mudah.",
+    "techStack": ["Android Apps"],
+    "features": [
+      "Fitur panggilan video real-time",
+      "Autentikasi pengguna dan manajemen akun",
+      "Desain responsif untuk pengalaman mobile yang optimal"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/ecommerce-thumb.jpg",
+      "gallery": [
+        "/images/projects/ecommerce-1.jpg",
+        "/images/projects/ecommerce-2.jpg",
+        "/images/projects/ecommerce-3.jpg"
+      ]
+    },
+    "links": {
+      "demo": "https://tolongplus.com"
+    },
+    "status": "Completed",
+    "date": "2022-02-20",
+    "client": "Tolong+",
+    "duration": "1 Tahun",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "SIMUH KEMENDESA",
+    "description": "Platform untuk mengelola data hibah dan bantuan sosial di desa.",
+    "longDescription": "Platform untuk mengelola data hibah dan bantuan sosial di desa dengan fitur-fitur canggih. Platform ini memungkinkan pengguna untuk mengelola data hibah, bantuan sosial, dan informasi terkait lainnya dengan mudah.",
+    "techStack": ["Website", "CMS"],
+    "features": [
+      "Fitur manajemen data hibah dan bantuan sosial",
+      "Integrasi dengan sistem CMS untuk manajemen data",
+      "Autentikasi & otorisasi pengguna",
+      "Dashboard admin yang intuitif"
+    ],
+    "images": {
+      "thumbnail": "/images/projects/ecommerce-thumb.jpg",
+      "gallery": [
+        "/images/projects/ecommerce-1.jpg",
+        "/images/projects/ecommerce-2.jpg",
+        "/images/projects/ecommerce-3.jpg"
+      ]
+    },
+    "links": {
+      "demo": "https://simuh.kemendesa.go.id"
+    },
+    "status": "Completed",
+    "date": "2023-04-20",
+    "client": "Kementrian Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Republik Indonesia.",
+    "duration": "1 Tahun",
     "featured": true
   }
 ]

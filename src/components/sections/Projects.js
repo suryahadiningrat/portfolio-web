@@ -89,7 +89,7 @@ const Projects = () => {
         <div className="flex flex-wrap justify-center gap-2 mb-12">
           <div className="flex items-center gap-2 mb-4">
             <Filter size={20} className="text-gray-500" />
-            <span className="text-sm text-gray-500">Filter berdasarkan teknologi:</span>
+            <span className="text-sm text-gray-500">Filter berdasarkan kategori:</span>
           </div>
           <div className="flex flex-wrap justify-center gap-2">
             {techFilters.map((tech) => (
